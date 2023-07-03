@@ -1,0 +1,145 @@
+body{
+  text-align: center;
+  /* width: 1365px; */
+}
+.header-main{
+  padding: 10px;
+  margin: 5px;
+  right: 0px;
+  background-color: #c3f1cdd7;
+  border-radius: 10px;
+}
+.something{
+  min-height: 400px;
+}
+.content{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.sidebar{
+  float: left;
+  padding-left: 35px;
+}
+.products{
+  float: right;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer{
+  align-self: flex-end;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(214, 245, 232);
+  border-radius: 10px;
+}
+.entry{
+  background-image: linear-gradient(to bottom right, rgb(163, 233, 238), rgb(0, 140, 255));
+  height: 750px;
+}
+.success{
+  background-image: linear-gradient(to bottom right, rgb(163, 233, 238), rgb(0, 140, 255));
+  height: 750px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 380px;
+}
+.profile{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.profile-button{
+  float: left;
+  top: 10px;
+  left: 10px;
+}
+.card-image{
+  height: 273px;
+  object-fit: cover;
+}
+.productslist{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.productData{
+  display: flex;
+  flex-direction: row;
+}
+.productDetails{
+  text-align: left;
+  align-self: center;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+.productImage{
+  display: flex;
+  align-self: center;
+  /* height: 350px;
+  width: 300px; */
+  padding: 100px;
+  margin-left: 180px;
+}
+.imagethumbnails{
+  display: flex;
+  flex-direction: column;
+  max-height: 40px;
+  max-width: 40px;
+  margin-top: 90px;
+}
+.thumbnailImage{
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.imagedata{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.productDescription{
+  font-size: 14px;
+  max-width: 480px;
+  margin: 10px 0;
+}
+.discpercent{
+  color: red;
+  font-size: 20px;
+  display: inline;
+  margin: 10px 0;
+}
+.price{
+  font-size: 20px;
+  color: #0e3617d7;
+}
+.items{
+  padding: 50px 175px;
+}
+.item{
+  padding: 20px 0px;
+  text-align: left;
+}
+.amount{
+  position: absolute;
+  right: 200px;
+}
+.quantity{
+  position: absolute;
+  right: 450px;
+}
+.content .description{
+  max-width: 600px;
+} 
+.hcl-image:hover {
+  cursor: pointer;
+}
+.visible.content {
+  display: block;
+  padding: 0;
+}
+.hidden.content {
+  display: block;
+  padding: 0;
+}

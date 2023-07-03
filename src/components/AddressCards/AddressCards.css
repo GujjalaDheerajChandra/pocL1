@@ -1,0 +1,23 @@
+.ui.cards{
+    display: flex;
+    justify-content: center;
+}
+.ui.card>.content{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.meta-description{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+}
+.meta-description .meta{
+    margin: 0px 10px;
+    min-width: 55px;
+    text-align: left;
+}
+.meta-description .description{
+    text-align: left;
+    color: #000;
+}

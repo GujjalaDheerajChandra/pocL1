@@ -1,0 +1,33 @@
+.ui.steps {
+  width: 100%;
+}
+.checkout-button {
+  margin: 15px !important;
+  padding: 15px !important;
+}
+.beautiful-form {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.beautiful-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.beautiful-form .field {
+  padding: 20px 0px;
+  margin: 0 auto !important;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.equal.width.fields {
+  justify-content: space-around;
+}
+.center-form {
+  display: flex;
+  flex-direction: column;
+}

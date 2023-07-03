@@ -1,0 +1,8 @@
+.error-input {
+  border: 2px solid #f1aaaa;
+  border-radius: 5px;
+}
+
+.error-input:focus {
+  outline: none;
+}
